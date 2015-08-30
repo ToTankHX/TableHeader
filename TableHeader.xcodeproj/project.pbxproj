@@ -14,6 +14,8 @@
 		D4B967671B90D3DD00E659C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B967661B90D3DD00E659C6 /* Images.xcassets */; };
 		D4B9676A1B90D3DD00E659C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B967681B90D3DD00E659C6 /* LaunchScreen.xib */; };
 		D4B967761B90D3DE00E659C6 /* TableHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B967751B90D3DE00E659C6 /* TableHeaderTests.m */; };
+		D4B967801B90D43C00E659C6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9677F1B90D43C00E659C6 /* image.png */; };
+		D4B967831B90D46600E659C6 /* HeaderTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B967821B90D46600E659C6 /* HeaderTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		D4B9676F1B90D3DE00E659C6 /* TableHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B967741B90D3DE00E659C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B967751B90D3DE00E659C6 /* TableHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableHeaderTests.m; sourceTree = "<group>"; };
+		D4B9677F1B90D43C00E659C6 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		D4B967811B90D46600E659C6 /* HeaderTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTable.h; sourceTree = "<group>"; };
+		D4B967821B90D46600E659C6 /* HeaderTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +86,13 @@
 		D4B967581B90D3DD00E659C6 /* TableHeader */ = {
 			isa = PBXGroup;
 			children = (
+				D4B9677F1B90D43C00E659C6 /* image.png */,
 				D4B9675D1B90D3DD00E659C6 /* AppDelegate.h */,
 				D4B9675E1B90D3DD00E659C6 /* AppDelegate.m */,
 				D4B967601B90D3DD00E659C6 /* ViewController.h */,
 				D4B967611B90D3DD00E659C6 /* ViewController.m */,
+				D4B967811B90D46600E659C6 /* HeaderTable.h */,
+				D4B967821B90D46600E659C6 /* HeaderTable.m */,
 				D4B967631B90D3DD00E659C6 /* Main.storyboard */,
 				D4B967661B90D3DD00E659C6 /* Images.xcassets */,
 				D4B967681B90D3DD00E659C6 /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				D4B967651B90D3DD00E659C6 /* Main.storyboard in Resources */,
 				D4B9676A1B90D3DD00E659C6 /* LaunchScreen.xib in Resources */,
 				D4B967671B90D3DD00E659C6 /* Images.xcassets in Resources */,
+				D4B967801B90D43C00E659C6 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B967621B90D3DD00E659C6 /* ViewController.m in Sources */,
+				D4B967831B90D46600E659C6 /* HeaderTable.m in Sources */,
 				D4B9675F1B90D3DD00E659C6 /* AppDelegate.m in Sources */,
 				D4B9675C1B90D3DD00E659C6 /* main.m in Sources */,
 			);
